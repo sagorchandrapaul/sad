@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Doctor Zone</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style1.css" rel="stylesheet">
+	
+    <link href="css/bootstrap-dropdownhover.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Start your project here-->
+    
+    <!-- Start Header Section here-->
+       <header>
+           <div class="container-fulid">
+               <!--Navbar-->
+                    <nav class="navbar navbar-expand-lg navbar-dark primary-color fixed-top  bg-faded">
+
+                        <!-- Navbar brand -->
+                        <a class="navbar-brand navbarbrand" href="#home">Doctor Zone</a>
+
+                        <!-- Collapse button -->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <!-- Collapsible content -->
+                        <div class="collapse navbar-collapse"   data-animations="fadeInDown fadeInRight fadeInUp fadeInLeft " id="basicExampleNav">
+
+                            <!-- Links -->
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home
+                                        <span class="sr-only">(current)</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="doctor.html">Doctor</a>
+                                </li>
+
+                                <!-- Dropdown -->
+                                <li class="nav-item dropdown" data-hover="dropdown">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#appoinment">Appointment</a>
+                                        <a class="dropdown-item" href="#consultant">Consultant</a>
+                                        <a class="dropdown-item" href="#">Ambulance</a>
+                                        <a class="dropdown-item" href="#">Blood</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Health Bites</a>
+                                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#blog">Blog</a>
+                                        <a class="dropdown-item" href="#">Fitness </a>
+                                        <a class="dropdown-item" href="#">Wellness</a>
+                                        <a class="dropdown-item" href="#">First Aid</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Login</a>
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                      <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                            </button>
+                                          </div>
+                                          <div class="modal-body">
+                                            <form>
+                                              <div class="form-group">
+                                                <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                                <input type="text" class="form-control" id="recipient-name">
+                                              </div>
+                                              <div class="form-group">
+                                                <label for="message-text" class="col-form-label">Message:</label>
+                                                <textarea class="form-control" id="message-text"></textarea>
+                                              </div>
+                                            </form>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Send message</button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                            <!-- Links -->
+                        </div>
+                        <!-- Collapsible content -->
+
+                    </nav>
+                    <!--/.Navbar-->
+           </div>
+       </header> <br> <br>
+        <br>
+        
+        <div class="container text-center">   
+              <div class="row">
+                  <div class="offset-md-1"></div>
+                   <div class="col-md-3 pr-0">
+                        <form>
+                          <div class="form-group">
+                            <select class="form-control py-2  border-right-0 border" id="exampleSelect1">
+                              <option>Select Hospital</option>
+                              <option>Dhaka Medical College Hospital</option>
+                              <option>Ibn Sina Hospital</option>
+                              <option>Square Hospitals Limited</option>
+                              <option>Lab Aid</option>
+                              <option>Apollo Hospital</option>
+                              <option>City Hospital</option>
+                            </select>
+                          </div>
+                     </form>
+                  </div>
+                 <div class="col-md-3 pl-0 pr-0">
+                       <form>
+                          <div class="form-group">
+                            <select class="form-control py-2  border-right-0 border" id="exampleSelect1">
+                              <option>Select Speciality</option>
+                              <option>Cardiology</option>
+                              <option>Oncology</option>
+                              <option>Dental</option>
+                              <option>Neurology</option>
+                              <option>Ent</option>
+                            </select>
+                          </div>
+                    </form>
+                </div>
+                
+                <div class="col-md-3 pl-0">
+                   <form>
+                      <div class="input-group">
+                            <input class="form-control py-2  border-right-0 border" type="search" placeholder="search" id="example-search-input">
+                            <span class="input-group-append">
+                                  <div class="input-group-text bg-transparent"><i class="fa fa-search"></i></div>
+                            </span>
+                      </div>
+                  </form>
+               </div>
+           </div>
+        </div>
+    
+
+       <section>                
+                <div class="container">
+                    <div class="row mt-5">
+                        <div class="col-md-4">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2><span class="fa fa-caret-down" aria-hidden="true"></span>City</h2>
+                                     <form action="" class="label">
+                                        <div class="form-check form-check-inline">
+                                          <label class="form-check-label">
+                                            <input type="checkbox" class="form-check-input" name="optcheck" value="optcheck">Dhaka
+                                          </label>
+                                          <label class="form-check-label ml-2">
+                                            <input type="checkbox" class="form-check-input" name="optcheck" value="optcheck">Khulna
+                                          </label>
+                                        </div>
+                                        
+                                        <div class="form-check form-check-inline">
+                                          <label class="form-check-label">
+                                            <input type="checkbox" class="form-check-input" name="optcheck" value="optcheck">Chittagong
+                                          </label>
+                                          <label class="form-check-label ml-2">
+                                            <input type="checkbox" class="form-check-input" name="optcheck" value="optcheck">Rangpur
+                                          </label>
+                                        </div>
+                                        
+                                        <div class="form-check form-check-inline">
+                                          <label class="form-check-label">
+                                            <input type="checkbox" class="form-check-input" name="optcheck" value="optcheck">Sylhet
+                                          </label>
+                                          <label class="form-check-label ml-2">
+                                            <input type="checkbox" class="form-check-input" name="optcheck" value="optcheck">Barisal
+                                          </label>
+                                        </div>
+                                        
+                                        <div class="form-check form-check-inline">
+                                          <label class="form-check-label">
+                                            <input type="checkbox" class="form-check-input" name="optcheck" value="optcheck">Rajshahi
+                                          </label>
+                                          <label class="form-check-label ml-2">
+                                            <input type="checkbox" class="form-check-input" name="optcheck" value="optcheck">Faridpur
+                                          </label>
+                                        </div>
+                                      </form>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 mt-5">
+                                    <h2><span class="fa fa-caret-down" aria-hidden="true"></span>Hospital</h2>
+                                    <form action="" class="label">
+                                        <div class="form-check form-check-inline">
+                                          <label class="form-check-label">
+                                            <input type="checkbox" class="form-check-input" name="optcheck" value="optcheck">Ibn Sina Hospital
+                                          </label>
+                                          <label class="form-check-label ml-2">
+                                            <input type="checkbox" class="form-check-input" name="optcheck" value="optcheck">Square Hospitals Limited
+                                          </label>
+                                        </div>
+                                        
+                                        <div class="form-check form-check-inline">
+                                          <label class="form-check-label">
+                                            <input type="checkbox" class="form-check-input" name="optcheck" value="optcheck">Apollo Hospital
+                                          </label>
+                                          <label class="form-check-label ml-2">
+                                            <input type="checkbox" class="form-check-input" name="optcheck" value="optcheck">City Hospital
+                                          </label>
+                                        </div>
+                                        
+                                        <div class="form-check form-check-inline">
+                                          <label class="form-check-label">
+                                            <input type="checkbox" class="form-check-input" name="optcheck" value="optcheck">Lab Aid
+                                          </label>
+                                          <label class="form-check-label ml-2">
+                                            <input type="checkbox" class="form-check-input" name="optcheck" value="optcheck">Dhaka Medical College Hospital
+                                          </label>
+                                        </div>
+                                      </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 mt-5 ">
+                           <h1>Most Popular Doctor</h1>
+                            <div class="row">
+                                      <div class="col-md-4 mpd">
+                                            <img class="img-fluid"  src="images/appointment-image.jpg" alt="" width="220px" height="180px">
+                                            <div class="title ">
+                                                <h4 >Andy Florence</h4>
+                                                <p>inappropriate behavior</p>
+                                            </div>
+                                      </div>
+                                      <div class="col-md-4 mpd">
+                                            <img class="img-fluid"  src="images/appointment-image.jpg" alt="" width="220px" height="180px">
+                                            <div class="title">
+                                                <h4>Andy Florence</h4>
+                                                <p>inappropriate behavior</p>
+                                            </div>
+                                      </div>
+                                      <div class="col-md-4 mpd">
+                                            <img class="img-fluid"  src="images/appointment-image.jpg" alt="" width="220px" height="180px">
+                                            <div class="title">
+                                                <h4>Andy Florence</h4>
+                                                <p>inappropriate behavior</p>
+                                            </div>
+                                      </div>
+                            </div>
+                            <h1> Nearest Doctor</h1>
+                            <div class="row">
+                                     <div class="row">
+                                      <div class="col-md-4 nd">
+                                            <img class="img-fluid"  src="images/appointment-image.jpg" alt="" width="220px" height="180px">
+                                            <div class="title">
+                                                <h4>Andy Florence</h4>
+                                                <p>inappropriate behavior</p>
+                                            </div>
+                                      </div>
+                                      <div class="col-md-4 nd">
+                                            <img class="img-fluid"  src="images/appointment-image.jpg" alt="" width="220px" height="180px">
+                                            <div class="title">
+                                                <h4>Andy Florence</h4>
+                                                <p>inappropriate behavior</p>
+                                            </div>
+                                      </div>
+                                      <div class="col-md-4 nd">
+                                            <img class="img-fluid"  src="images/appointment-image.jpg" alt="" width="220px" height="180px">
+                                            <div class="title">
+                                                <h4>Andy Florence</h4>
+                                                <p>inappropriate behavior</p>
+                                            </div>
+                                      </div>
+                            </div>
+                            </div>
+                            <h1>Our Doctor</h1>
+                            <div class="row">
+                                      <div class="col-md-4 od">
+                                            <img class="img-fluid"  src="images/appointment-image.jpg" alt="" width="220px" height="180px">
+                                            <div class="title">
+                                                <h4>Andy Florence</h4>
+                                                <p>inappropriate behavior</p>
+                                            </div>
+                                      </div>
+                                      <div class="col-md-4 od">
+                                            <img class="img-fluid"  src="images/appointment-image.jpg" alt="" width="220px" height="180px">
+                                            <div class="title">
+                                                <h4>Andy Florence</h4>
+                                                <p>inappropriate behavior</p>
+                                            </div>
+                                      </div>
+                                      <div class="col-md-4 od">
+                                            <img class="img-fluid"  src="images/appointment-image.jpg" alt="" width="220px" height="180px">
+                                            <div class="title">
+                                                <h4>Andy Florence</h4>
+                                                <p>inappropriate behavior</p>
+                                            </div>
+                                      </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+                 
+                  
+                  
+            <!--Footer-->
+            <footer class="page-footer font-small blue  mt-5">
+
+                <!--Copyright-->
+                <div class="footer-copyright py-3 text-center">
+                    © 2018 Copyright:
+                    <a href="#">Doctor Zone</a>
+                </div>
+                <!--/.Copyright-->
+
+            </footer>
+            <!--/.Footer-->
+                      
+    <!-- /End Footer section here-->
+
+    <!-- SCRIPTS -->
+    <script>
+       
+         // Material Select Initialization
+         $(document).ready(function() {
+            $('.mdb-select').material_select();
+          });
+		  
+		  
+		  $('ul.nav li.dropdown').hover(function() {
+          $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+         }, function() {
+         $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+					});
+        
+        $('#myModal').on('shown.bs.modal', function () {
+          $('#myInput').trigger('focus')
+        })
+        
+        $('#exampleModal').on('show.bs.modal', function (event) {
+          var button = $(event.relatedTarget) // Button that triggered the modal
+          var recipient = button.data('whatever') // Extract info from data-* attributes
+          // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+          // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+          var modal = $(this)
+          modal.find('.modal-title').text('New message to ' + recipient)
+          modal.find('.modal-body input').val(recipient)
+        })
+    </script>
+    <!--Google Maps-->
+        <script src="https://maps.google.com/maps/api/js"></script>
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	
+    <script type="text/javascript" src="js/bootstrap-dropdownhover.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+ .mpd img{
+    padding-left: 10px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.mpd img:hover{
+  cursor: pointer;
+  opacity: .5;
+  transform: scale(1.05);
+}
+ .nd img{
+    padding-left: 10px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.nd img:hover{
+  cursor: pointer;
+  opacity: .5;
+  transform: scale(1.05);
+}
+ .od img{
+    padding-left: 10px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.od img:hover{
+  cursor: pointer;
+  opacity: .5;
+  transform: scale(1.05);
+}
+.label label{
+    color: black;
+}
+
+.title{
+    margin-top: 20px;
+    margin-left: 10px;
+}
